@@ -1,0 +1,33 @@
+{
+  "variant": "pool8",
+  "baseline": {
+    "pool": 4,
+    "first_width": 128,
+    "second_width": 64,
+    "initialization": "xavier"
+  },
+  "configuration": {
+    "pool": 8,
+    "first_width": 128,
+    "second_width": 64,
+    "initialization": "xavier",
+    "changed_factor": "pooling factor 4 to 8"
+  },
+  "training": {
+    "epochs_searched": 25,
+    "learning_rate": 0.01,
+    "momentum": 0.9,
+    "batch": 256,
+    "split_seed": 42,
+    "train_images": 1063062,
+    "validation_images": 264264,
+    "final_train_images": 1327326
+  },
+  "best_validation_accuracy": 0.9971884176429631,
+  "best_validation_loss": 0.009194242844563731,
+  "best_epoch": 25,
+  "onnx_float_parameters": 17293,
+  "local_median_latency_ms": 0.0080665,
+  "server_accuracy": null,
+  "server_score": null
+}

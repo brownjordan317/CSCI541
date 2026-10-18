@@ -1,0 +1,7 @@
+numpy
+Pillow
+opencv-python
+scipy
+torch
+onnx
+tqdm

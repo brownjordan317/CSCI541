@@ -1,0 +1,33 @@
+{
+  "variant": "width96",
+  "baseline": {
+    "pool": 4,
+    "first_width": 128,
+    "second_width": 64,
+    "initialization": "xavier"
+  },
+  "configuration": {
+    "pool": 4,
+    "first_width": 96,
+    "second_width": 64,
+    "initialization": "xavier",
+    "changed_factor": "first hidden width 128 to 96"
+  },
+  "training": {
+    "epochs_searched": 25,
+    "learning_rate": 0.01,
+    "momentum": 0.9,
+    "batch": 256,
+    "split_seed": 42,
+    "train_images": 1063062,
+    "validation_images": 264264,
+    "final_train_images": 1327326
+  },
+  "best_validation_accuracy": 0.998879907970817,
+  "best_validation_loss": 0.003899503240197553,
+  "best_epoch": 23,
+  "onnx_float_parameters": 31597,
+  "local_median_latency_ms": 0.009115,
+  "server_accuracy": null,
+  "server_score": null
+}
