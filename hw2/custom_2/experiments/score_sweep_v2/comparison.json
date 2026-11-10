@@ -1,0 +1,324 @@
+{
+  "ranked_trials": [
+    {
+      "config": {
+        "name": "mini_gap",
+        "widths": [
+          16,
+          32,
+          64
+        ],
+        "blocks_per_stage": 2
+      },
+      "parameters": 174933,
+      "onnx_float_weights": 174373,
+      "seed": 0,
+      "minimum_epochs": 80,
+      "maximum_epochs": null,
+      "epochs_run": 91,
+      "best_epoch": 79,
+      "stop_reason": "minimum_lr_early_stopping",
+      "last_training_lr": 1e-05,
+      "validation": {
+        "view_accuracy": {
+          "center": 0.9100000262260437,
+          "left_8": 0.906000018119812,
+          "right_8": 0.906000018119812,
+          "up_8": 0.9079999923706055,
+          "down_8": 0.9100000262260437,
+          "left_16": 0.8980000019073486,
+          "right_16": 0.8960000276565552,
+          "up_16": 0.8899999856948853,
+          "down_16": 0.8840000033378601,
+          "scale_0.75": 0.8820000290870667,
+          "scale_1.25": 0.8899999856948853,
+          "darker": 0.8999999761581421,
+          "brighter": 0.906000018119812
+        },
+        "mean_accuracy": 0.8989230852860671,
+        "all_views_same_prediction": 0.8159999847412109,
+        "all_views_correct": 0.7799999713897705
+      },
+      "diagnostic_stress": {
+        "view_accuracy": {
+          "top_left": 0.906000018119812,
+          "top_right": 0.9039999842643738,
+          "bottom_left": 0.8980000019073486,
+          "bottom_right": 0.8980000019073486,
+          "rotation_-20": 0.8759999871253967,
+          "rotation_20": 0.8539999723434448,
+          "scale_0.6": 0.8399999737739563,
+          "scale_1.5": 0.8840000033378601,
+          "grayscale": 0.8500000238418579,
+          "low_contrast": 0.8880000114440918,
+          "noise_0.04": 0.8939999938011169,
+          "blur_3": 0.8820000290870667
+        },
+        "mean_accuracy": 0.8811666667461395,
+        "all_views_same_prediction": 0.656000018119812,
+        "all_views_correct": 0.6420000195503235
+      },
+      "local_paired_latency": {
+        "candidate": {
+          "median_ms": 0.231875,
+          "p90_ms": 0.2357911
+        },
+        "reference": {
+          "median_ms": 0.256167,
+          "p90_ms": 0.260416
+        }
+      },
+      "reference_actual_hidden_accuracy": 0.887,
+      "reference_actual_score": 0.638,
+      "proxy_accuracy_change": -0.0004615371043864558,
+      "proxy_parameter_gain": 0.023343555699454177,
+      "proxy_latency_gain": 0.0021634627638151454,
+      "local_proxy_score_gain": 0.025045481358882866,
+      "calibrated_score_proxy_not_actual": 0.6630454813588829,
+      "actual_hidden_accuracy": null,
+      "actual_score": null,
+      "warning": "Score proxy assumes fractional accuracy, comparable validation-to-hidden changes, and local-to-evaluator latency ratios. None is guaranteed. Not an actual submission result."
+    },
+    {
+      "config": {
+        "name": "micro_gap",
+        "widths": [
+          12,
+          24,
+          48
+        ],
+        "blocks_per_stage": 2
+      },
+      "parameters": 98753,
+      "onnx_float_weights": 98333,
+      "seed": 0,
+      "minimum_epochs": 80,
+      "maximum_epochs": null,
+      "epochs_run": 89,
+      "best_epoch": 84,
+      "stop_reason": "minimum_lr_early_stopping",
+      "last_training_lr": 1e-05,
+      "validation": {
+        "view_accuracy": {
+          "center": 0.8880000114440918,
+          "left_8": 0.8899999856948853,
+          "right_8": 0.8820000290870667,
+          "up_8": 0.8840000033378601,
+          "down_8": 0.8859999775886536,
+          "left_16": 0.8880000114440918,
+          "right_16": 0.8799999952316284,
+          "up_16": 0.871999979019165,
+          "down_16": 0.871999979019165,
+          "scale_0.75": 0.8560000061988831,
+          "scale_1.25": 0.8820000290870667,
+          "darker": 0.8759999871253967,
+          "brighter": 0.878000020980835
+        },
+        "mean_accuracy": 0.8795384627122146,
+        "all_views_same_prediction": 0.8080000281333923,
+        "all_views_correct": 0.7639999985694885
+      },
+      "diagnostic_stress": {
+        "view_accuracy": {
+          "top_left": 0.8759999871253967,
+          "top_right": 0.8679999709129333,
+          "bottom_left": 0.8820000290870667,
+          "bottom_right": 0.8840000033378601,
+          "rotation_-20": 0.8600000143051147,
+          "rotation_20": 0.8579999804496765,
+          "scale_0.6": 0.7879999876022339,
+          "scale_1.5": 0.878000020980835,
+          "grayscale": 0.8259999752044678,
+          "low_contrast": 0.8619999885559082,
+          "noise_0.04": 0.8560000061988831,
+          "blur_3": 0.8519999980926514
+        },
+        "mean_accuracy": 0.8574999968210856,
+        "all_views_same_prediction": 0.621999979019165,
+        "all_views_correct": 0.6100000143051147
+      },
+      "local_paired_latency": {
+        "candidate": {
+          "median_ms": 0.201042,
+          "p90_ms": 0.2044581
+        },
+        "reference": {
+          "median_ms": 0.256292,
+          "p90_ms": 0.2661711
+        }
+      },
+      "reference_actual_hidden_accuracy": 0.887,
+      "reference_actual_score": 0.638,
+      "proxy_accuracy_change": -0.019846159678238995,
+      "proxy_parameter_gain": 0.03578255321757608,
+      "proxy_latency_gain": 0.005272412705724027,
+      "local_proxy_score_gain": 0.021208806245061107,
+      "calibrated_score_proxy_not_actual": 0.6592088062450612,
+      "actual_hidden_accuracy": null,
+      "actual_score": null,
+      "warning": "Score proxy assumes fractional accuracy, comparable validation-to-hidden changes, and local-to-evaluator latency ratios. None is guaranteed. Not an actual submission result."
+    },
+    {
+      "config": {
+        "name": "shallow_gap",
+        "widths": [
+          16,
+          32,
+          64
+        ],
+        "blocks_per_stage": 1
+      },
+      "parameters": 77717,
+      "onnx_float_weights": 77381,
+      "seed": 0,
+      "minimum_epochs": 80,
+      "maximum_epochs": null,
+      "epochs_run": 99,
+      "best_epoch": 64,
+      "stop_reason": "minimum_lr_early_stopping",
+      "last_training_lr": 1e-05,
+      "validation": {
+        "view_accuracy": {
+          "center": 0.8700000047683716,
+          "left_8": 0.8759999871253967,
+          "right_8": 0.871999979019165,
+          "up_8": 0.8659999966621399,
+          "down_8": 0.8700000047683716,
+          "left_16": 0.8579999804496765,
+          "right_16": 0.8659999966621399,
+          "up_16": 0.8619999885559082,
+          "down_16": 0.871999979019165,
+          "scale_0.75": 0.8519999980926514,
+          "scale_1.25": 0.8659999966621399,
+          "darker": 0.8659999966621399,
+          "brighter": 0.8700000047683716
+        },
+        "mean_accuracy": 0.8666153779396644,
+        "all_views_same_prediction": 0.8080000281333923,
+        "all_views_correct": 0.7580000162124634
+      },
+      "diagnostic_stress": {
+        "view_accuracy": {
+          "top_left": 0.8640000224113464,
+          "top_right": 0.8640000224113464,
+          "bottom_left": 0.8679999709129333,
+          "bottom_right": 0.8700000047683716,
+          "rotation_-20": 0.8379999995231628,
+          "rotation_20": 0.8360000252723694,
+          "scale_0.6": 0.8019999861717224,
+          "scale_1.5": 0.8420000076293945,
+          "grayscale": 0.7960000038146973,
+          "low_contrast": 0.8339999914169312,
+          "noise_0.04": 0.8579999804496765,
+          "blur_3": 0.843999981880188
+        },
+        "mean_accuracy": 0.842999999721845,
+        "all_views_same_prediction": 0.5960000157356262,
+        "all_views_correct": 0.578000009059906
+      },
+      "local_paired_latency": {
+        "candidate": {
+          "median_ms": 0.156458,
+          "p90_ms": 0.1604581
+        },
+        "reference": {
+          "median_ms": 0.256708,
+          "p90_ms": 0.2612205
+        }
+      },
+      "reference_actual_hidden_accuracy": 0.887,
+      "reference_actual_score": 0.638,
+      "proxy_accuracy_change": -0.032769244450789214,
+      "proxy_parameter_gain": 0.040985800779190396,
+      "proxy_latency_gain": 0.010752081439389697,
+      "local_proxy_score_gain": 0.018968637767790876,
+      "calibrated_score_proxy_not_actual": 0.6569686377677909,
+      "actual_hidden_accuracy": null,
+      "actual_score": null,
+      "warning": "Score proxy assumes fractional accuracy, comparable validation-to-hidden changes, and local-to-evaluator latency ratios. None is guaranteed. Not an actual submission result."
+    },
+    {
+      "config": {
+        "name": "nano_gap",
+        "widths": [
+          8,
+          16,
+          32
+        ],
+        "blocks_per_stage": 2
+      },
+      "parameters": 44205,
+      "onnx_float_weights": 43925,
+      "seed": 0,
+      "minimum_epochs": 80,
+      "maximum_epochs": null,
+      "epochs_run": 102,
+      "best_epoch": 48,
+      "stop_reason": "minimum_lr_early_stopping",
+      "last_training_lr": 1e-05,
+      "validation": {
+        "view_accuracy": {
+          "center": 0.8579999804496765,
+          "left_8": 0.8600000143051147,
+          "right_8": 0.8479999899864197,
+          "up_8": 0.8519999980926514,
+          "down_8": 0.8519999980926514,
+          "left_16": 0.8399999737739563,
+          "right_16": 0.8339999914169312,
+          "up_16": 0.843999981880188,
+          "down_16": 0.8140000104904175,
+          "scale_0.75": 0.8240000009536743,
+          "scale_1.25": 0.8619999885559082,
+          "darker": 0.8460000157356262,
+          "brighter": 0.8460000157356262
+        },
+        "mean_accuracy": 0.8446153814976032,
+        "all_views_same_prediction": 0.7360000014305115,
+        "all_views_correct": 0.6819999814033508
+      },
+      "diagnostic_stress": {
+        "view_accuracy": {
+          "top_left": 0.8339999914169312,
+          "top_right": 0.8360000252723694,
+          "bottom_left": 0.828000009059906,
+          "bottom_right": 0.8360000252723694,
+          "rotation_-20": 0.8059999942779541,
+          "rotation_20": 0.7799999713897705,
+          "scale_0.6": 0.7179999947547913,
+          "scale_1.5": 0.8379999995231628,
+          "grayscale": 0.7680000066757202,
+          "low_contrast": 0.8140000104904175,
+          "noise_0.04": 0.8140000104904175,
+          "blur_3": 0.8119999766349792
+        },
+        "mean_accuracy": 0.8070000012715658,
+        "all_views_same_prediction": 0.5220000147819519,
+        "all_views_correct": 0.5019999742507935
+      },
+      "local_paired_latency": {
+        "candidate": {
+          "median_ms": 0.1655,
+          "p90_ms": 0.17175
+        },
+        "reference": {
+          "median_ms": 0.2575415,
+          "p90_ms": 0.26395810000000003
+        }
+      },
+      "reference_actual_hidden_accuracy": 0.887,
+      "reference_actual_score": 0.638,
+      "proxy_accuracy_change": -0.0547692408928504,
+      "proxy_parameter_gain": 0.05328192916277549,
+      "proxy_latency_gain": 0.00960246113585582,
+      "local_proxy_score_gain": 0.008115149405780911,
+      "calibrated_score_proxy_not_actual": 0.646115149405781,
+      "actual_hidden_accuracy": null,
+      "actual_score": null,
+      "warning": "Score proxy assumes fractional accuracy, comparable validation-to-hidden changes, and local-to-evaluator latency ratios. None is guaranteed. Not an actual submission result."
+    }
+  ],
+  "local_proxy_leader": "mini_gap",
+  "confirmed_submission": "custom_2/submission/recommended_tiny.onnx",
+  "confirmed_submission_score": 0.638,
+  "warning": "Ranking uses local proxies; do not replace the externally tested submission without evaluation."
+}

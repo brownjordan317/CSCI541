@@ -1,0 +1,54 @@
+{
+  "artifacts": [
+    {
+      "source": "custom_2/experiments/score_sweep_v2/mini_gap/model.onnx",
+      "copy": "p3_best/p3_best.onnx",
+      "sha256": "766a88cd8e751ae4fba05ab13d4419ab3388a9438b402782d3e9fbb1d48760c1"
+    },
+    {
+      "source": "custom_2/experiments/score_sweep_v2/mini_gap/best.pt",
+      "copy": "p3_best/checkpoints/best.pt",
+      "sha256": "c234d9e2e524a017d00758821a0de9c0ec5719b03695c5418445152ba78f81ec"
+    },
+    {
+      "source": "custom_2/experiments/score_sweep_v2/mini_gap/last.pt",
+      "copy": "p3_best/checkpoints/last.pt",
+      "sha256": "9ea0b955c8fc5c02061977bd87117ee33f30ac7f5c3dbf66b3acb4ac7bb5e92c"
+    },
+    {
+      "source": "custom_2/experiments/score_sweep_v2/mini_gap/metrics.json",
+      "copy": "p3_best/results/metrics.json",
+      "sha256": "92b90d34580b14fd1a6a3418eadc3645ac65a11627d546d35301fa1b356cfa97"
+    },
+    {
+      "source": "custom_2/experiments/score_sweep_v2/mini_gap/history.json",
+      "copy": "p3_best/results/history.json",
+      "sha256": "1e44c7cb28b848cc26ce85a815a38e514c9cb5c766c5f29b1a50e5b709b25bdb"
+    },
+    {
+      "source": "custom_2/experiments/score_sweep_v2/mini_gap/train.log",
+      "copy": "p3_best/results/train.log",
+      "sha256": "38db39e4b8024aa489c3382a197d3c2a1d33595dd5f0b3ab560d4b35cf726ba7"
+    },
+    {
+      "source": "export_onnx.py",
+      "copy": "p3_best/export_onnx.py",
+      "sha256": "124d6baca559d4127e44dfd6f26309338ae11f8eeb2000be96a1b1be06137155"
+    }
+  ],
+  "code_origin": {
+    "model.py": [
+      "custom_2/code/optimize_score.py:ScoreCNN (mini_gap configuration)",
+      "custom/train_custom.py:ResidualBlock"
+    ],
+    "training_utils.py": [
+      "custom/train_custom.py",
+      "custom_2/code/train_custom_2.py",
+      "custom_2/code/lr_control.py",
+      "custom_2/code/optimize_score.py:cpu_tree"
+    ],
+    "train.py": "Single-model extraction of custom_2/code/optimize_score.py; sweep ranking/reference latency omitted, learning recipe unchanged"
+  },
+  "external_feedback": "User reports challenger mini was best; numerical accuracy/score not supplied.",
+  "originals_preserved": true
+}

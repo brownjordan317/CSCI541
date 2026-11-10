@@ -1,0 +1,81 @@
+{
+  "formula": "accuracy - 0.05*log10(params) - 0.05*log10(median_latency_ms)",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "processor": "arm64",
+  "onnxruntime": "1.31.1",
+  "provider": "CPUExecutionProvider",
+  "intra_op_threads": 1,
+  "inter_op_threads": 1,
+  "warmup_calls": 30,
+  "calls_per_model": 900,
+  "timing_scope": "session.run, batch=1; excludes session construction and preprocessing",
+  "accuracy_proxy": "13-view mean on the existing 500-photo selection set",
+  "warning": "NOT hidden accuracy or evaluator latency; do not interpret as actual submission scores.",
+  "rows": [
+    {
+      "name": "tiny_robust_aug",
+      "onnx_path": "custom_2/runs/tiny_robust_aug/model.onnx",
+      "learned_parameters": 511957,
+      "onnx_float_values": 510917,
+      "median_latency_ms": 0.25575,
+      "p90_latency_ms": 0.261417,
+      "validation_13_view_mean": 0.8978461577342107,
+      "clean_accuracy": 0.9039999842643738,
+      "score_proxy_fraction_accuracy": 0.6420378579438587,
+      "score_proxy_percent_accuracy": 89.52880747363072,
+      "hidden_score": null
+    },
+    {
+      "name": "compact_robust_low_lr",
+      "onnx_path": "custom_2/runs/compact_robust_low_lr/model.onnx",
+      "learned_parameters": 1129661,
+      "onnx_float_values": 1128101,
+      "median_latency_ms": 0.37675,
+      "p90_latency_ms": 0.3894211,
+      "validation_13_view_mean": 0.9055384580905621,
+      "clean_accuracy": 0.9160000085830688,
+      "score_proxy_fraction_accuracy": 0.6241183958310685,
+      "score_proxy_percent_accuracy": 90.27242574679671,
+      "hidden_score": null
+    },
+    {
+      "name": "compact_robust_aug",
+      "onnx_path": "custom_2/runs/compact_robust_aug/model.onnx",
+      "learned_parameters": 1129661,
+      "onnx_float_values": 1128101,
+      "median_latency_ms": 0.377,
+      "p90_latency_ms": 0.388275,
+      "validation_13_view_mean": 0.9047692326398996,
+      "clean_accuracy": 0.9100000262260437,
+      "score_proxy_fraction_accuracy": 0.6233347659194498,
+      "score_proxy_percent_accuracy": 90.1954887972695,
+      "hidden_score": null
+    },
+    {
+      "name": "compact_original_aug",
+      "onnx_path": "custom_2/runs/compact_original_aug/model.onnx",
+      "learned_parameters": 1129661,
+      "onnx_float_values": 1128101,
+      "median_latency_ms": 0.3764375,
+      "p90_latency_ms": 0.38875060000000006,
+      "validation_13_view_mean": 0.9024615333630488,
+      "clean_accuracy": 0.9079999923706055,
+      "score_proxy_fraction_accuracy": 0.6210594901271558,
+      "score_proxy_percent_accuracy": 89.964751293069,
+      "hidden_score": null
+    },
+    {
+      "name": "original_custom",
+      "onnx_path": "custom/custom_cnn.onnx",
+      "learned_parameters": 1989029,
+      "onnx_float_values": 1986949,
+      "median_latency_ms": 0.4972085,
+      "p90_latency_ms": 0.5076744,
+      "validation_13_view_mean": 0.9046153884667617,
+      "clean_accuracy": 0.9160000085830688,
+      "score_proxy_fraction_accuracy": 0.6048791252421514,
+      "score_proxy_percent_accuracy": 90.16180258345156,
+      "hidden_score": null
+    }
+  ]
+}

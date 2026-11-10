@@ -1,0 +1,257 @@
+[
+  {
+    "old_path": "custom_2/runs/compact_original_aug/best.pt",
+    "new_path": "custom_2/experiments/sweep/runs/compact_original_aug/best.pt",
+    "sha256": "a99feb5210388b76889536e3e761004fb58de20ef77d17b2710a2eb32b422f52"
+  },
+  {
+    "old_path": "custom_2/runs/compact_original_aug/history.json",
+    "new_path": "custom_2/experiments/sweep/runs/compact_original_aug/history.json",
+    "sha256": "fdd5aef59889b4a731c134f52b41dfc37cd0a332337f80d28256e5266ec43961"
+  },
+  {
+    "old_path": "custom_2/runs/compact_original_aug/metrics.json",
+    "new_path": "custom_2/experiments/sweep/runs/compact_original_aug/metrics.json",
+    "sha256": "8fa6dfee016a226f03dae86a9f15771547ad20426158bcd3de6663834f7be1fb"
+  },
+  {
+    "old_path": "custom_2/runs/compact_original_aug/model.onnx",
+    "new_path": "custom_2/experiments/sweep/runs/compact_original_aug/model.onnx",
+    "sha256": "3a221f1800eeb58dab98c3241f11cb232b8986e3c265819f53a080372f51e5e3"
+  },
+  {
+    "old_path": "custom_2/runs/compact_original_aug/train.log",
+    "new_path": "custom_2/experiments/sweep/runs/compact_original_aug/train.log",
+    "sha256": "8f072fba5185f51758e27e228f45e6821d723a24be2495db6bdd09d657d80c55"
+  },
+  {
+    "old_path": "custom_2/runs/compact_robust_aug/best.pt",
+    "new_path": "custom_2/experiments/sweep/runs/compact_robust_aug/best.pt",
+    "sha256": "68690513e599dc2d45977ca532207ea466a820329255b3b7a56126b6692cc788"
+  },
+  {
+    "old_path": "custom_2/runs/compact_robust_aug/history.json",
+    "new_path": "custom_2/experiments/sweep/runs/compact_robust_aug/history.json",
+    "sha256": "168a1c7c1db67898807696a6f164da4db3bf4ea78e1e3d17b8490a574609e396"
+  },
+  {
+    "old_path": "custom_2/runs/compact_robust_aug/metrics.json",
+    "new_path": "custom_2/experiments/sweep/runs/compact_robust_aug/metrics.json",
+    "sha256": "309d48e86306d07409c8a7b4dabd761dd7a387618954d84feaaf8c017b8b17c2"
+  },
+  {
+    "old_path": "custom_2/runs/compact_robust_aug/model.onnx",
+    "new_path": "custom_2/experiments/sweep/runs/compact_robust_aug/model.onnx",
+    "sha256": "410da746f3056419174d6b17cecfab66ff49cd57939e304b8771d63da1a21135"
+  },
+  {
+    "old_path": "custom_2/runs/compact_robust_aug/train.log",
+    "new_path": "custom_2/experiments/sweep/runs/compact_robust_aug/train.log",
+    "sha256": "c7f75150ae1cdad85f1dd8c68460f8c04150761637ac4f10764ac7cd2bd78585"
+  },
+  {
+    "old_path": "custom_2/runs/compact_robust_low_lr/best.pt",
+    "new_path": "custom_2/experiments/sweep/runs/compact_robust_low_lr/best.pt",
+    "sha256": "ddaa756983c60c7a142b960998a2ba7dc95a8d5a9540863004fda91a0c969b4f"
+  },
+  {
+    "old_path": "custom_2/runs/compact_robust_low_lr/history.json",
+    "new_path": "custom_2/experiments/sweep/runs/compact_robust_low_lr/history.json",
+    "sha256": "ca9cae8f5d4e66ca5b57a527c89601a1afbceb77ad1e35419e152e4528dc110b"
+  },
+  {
+    "old_path": "custom_2/runs/compact_robust_low_lr/metrics.json",
+    "new_path": "custom_2/experiments/sweep/runs/compact_robust_low_lr/metrics.json",
+    "sha256": "0951bddd7db169e1cfe68f7b0417118dd67820faffe85ec4df1cbee9c1ae3245"
+  },
+  {
+    "old_path": "custom_2/runs/compact_robust_low_lr/model.onnx",
+    "new_path": "custom_2/experiments/sweep/runs/compact_robust_low_lr/model.onnx",
+    "sha256": "c56bc7183f9ba74cd68e807326a0b4a8f59b3b6cf2e890c0d443fc9f48802065"
+  },
+  {
+    "old_path": "custom_2/runs/compact_robust_low_lr/train.log",
+    "new_path": "custom_2/experiments/sweep/runs/compact_robust_low_lr/train.log",
+    "sha256": "f61294ac07618b095917ee48be46223d3d84fbd6e674a487e4d2ece1b303770b"
+  },
+  {
+    "old_path": "custom_2/runs/tiny_robust_aug/best.pt",
+    "new_path": "custom_2/experiments/sweep/runs/tiny_robust_aug/best.pt",
+    "sha256": "5a1263657cd2018fa0ae6cf916147ec457cc73dc56b2f08a2f0ae4f9708fbb54"
+  },
+  {
+    "old_path": "custom_2/runs/tiny_robust_aug/history.json",
+    "new_path": "custom_2/experiments/sweep/runs/tiny_robust_aug/history.json",
+    "sha256": "635439a50ca3624784263ba6aef3eb7ce5fd44e1e1200981d710b33eb78bbfc1"
+  },
+  {
+    "old_path": "custom_2/runs/tiny_robust_aug/metrics.json",
+    "new_path": "custom_2/experiments/sweep/runs/tiny_robust_aug/metrics.json",
+    "sha256": "8a453287de58642ced295105a90afae1ec2a40002c932d55b8a57bf3feca0c4a"
+  },
+  {
+    "old_path": "custom_2/runs/tiny_robust_aug/model.onnx",
+    "new_path": "custom_2/experiments/sweep/runs/tiny_robust_aug/model.onnx",
+    "sha256": "da6f2bda6812ecc579bf61563762968c4d0fab43fb92afb9ce36df5a72b14a03"
+  },
+  {
+    "old_path": "custom_2/runs/tiny_robust_aug/train.log",
+    "new_path": "custom_2/experiments/sweep/runs/tiny_robust_aug/train.log",
+    "sha256": "14c3fd7a3151f3ef05c6187f25d53e0f7cc89ee78f36359ebbddaef61db9ea3d"
+  },
+  {
+    "old_path": "custom_2/tiny_cosine_earlystop/RESULTS.md",
+    "new_path": "custom_2/experiments/tiny_cosine/RESULTS.md",
+    "sha256": "b23142ac885746256351b751207faed2eda2f5149d9b3774d8ee6f09e52faeee"
+  },
+  {
+    "old_path": "custom_2/tiny_cosine_earlystop/best.pt",
+    "new_path": "custom_2/experiments/tiny_cosine/best.pt",
+    "sha256": "117233791f402b1012ed708dbf78108ade6cf9c90f1763884bd386e7de3c8941"
+  },
+  {
+    "old_path": "custom_2/tiny_cosine_earlystop/history.json",
+    "new_path": "custom_2/experiments/tiny_cosine/history.json",
+    "sha256": "f4ac0a13028305204ac14953940ec66b47c821d5b9a48850d4faaa23049cb34a"
+  },
+  {
+    "old_path": "custom_2/tiny_cosine_earlystop/metrics.json",
+    "new_path": "custom_2/experiments/tiny_cosine/metrics.json",
+    "sha256": "88a38d467b8c6083123d3cad070d7ca24875df40bb17c3af377af2296c6379d7"
+  },
+  {
+    "old_path": "custom_2/tiny_cosine_earlystop/tiny_cosine_cnn.onnx",
+    "new_path": "custom_2/experiments/tiny_cosine/tiny_cosine_cnn.onnx",
+    "sha256": "5b50419c71e21bafc38d55cc2a873305c276dacf3f3917ab8505a6179c306c6a"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau_earlystop/RESULTS.md",
+    "new_path": "custom_2/experiments/tiny_plateau_capped/RESULTS.md",
+    "sha256": "8f5a24079f7e1d1bc9a931b07f0b361f656edcf9c157a50fa9cef273db2cddd6"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau_earlystop/best.pt",
+    "new_path": "custom_2/experiments/tiny_plateau_capped/best.pt",
+    "sha256": "b13c85a1edec1bc1b055da30e1acf176fd80886214bf3c76698998518d822097"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau_earlystop/history.json",
+    "new_path": "custom_2/experiments/tiny_plateau_capped/history.json",
+    "sha256": "1201d437e1c986305325d1da5ebc95cb8453886e591b0db44c208dd6639b8f79"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau_earlystop/metrics.json",
+    "new_path": "custom_2/experiments/tiny_plateau_capped/metrics.json",
+    "sha256": "2450a808c2a83463dfc12ad7d8007a82fac3e07e446b7d95f335fb84eb62dc3f"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau_earlystop/tiny_plateau_cnn.onnx",
+    "new_path": "custom_2/experiments/tiny_plateau_capped/tiny_plateau_cnn.onnx",
+    "sha256": "a370856a2abeb30bb9d7a6151c8e05598f1e443382a12a58ef9b53334ea65ebc"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau_min80/RESULTS.md",
+    "new_path": "custom_2/experiments/tiny_plateau_min80/RESULTS.md",
+    "sha256": "f4e00b068012436ad6c9706e90d2373985dc7729dcdd0b8a33fedb5cf5d5efcf"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau_min80/best.pt",
+    "new_path": "custom_2/experiments/tiny_plateau_min80/best.pt",
+    "sha256": "7dd745b62c6f0f1e913a53c7df661dbeb42cc6b5147dbf3c50b2ddcdeddfd603"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau_min80/history.json",
+    "new_path": "custom_2/experiments/tiny_plateau_min80/history.json",
+    "sha256": "79f3fc59a1dc2c7886d6972b866e3c61ba685a4f27566d45b0b04b72047badc2"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau_min80/metrics.json",
+    "new_path": "custom_2/experiments/tiny_plateau_min80/metrics.json",
+    "sha256": "df0027638ea11793788fc8ae623b1d42a4c1e922347e88131fde0783fe3f6ef8"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau_min80/tiny_plateau_cnn.onnx",
+    "new_path": "custom_2/experiments/tiny_plateau_min80/tiny_plateau_cnn.onnx",
+    "sha256": "36d65bafb9366cfbf57a31bc9e83033e5b0112b2d66eea7c2575cec262be3c2c"
+  },
+  {
+    "old_path": "custom_2/comparison.json",
+    "new_path": "custom_2/experiments/sweep/comparison.json",
+    "sha256": "77d82fa9635015f8bee8d4c9d2efbfe9ebcfb72a8893cda174c1c987b8ad1b12"
+  },
+  {
+    "old_path": "custom_2/reference_metrics.json",
+    "new_path": "custom_2/experiments/sweep/reference_metrics.json",
+    "sha256": "79a1ef9142bd85c4d892290f1a70e54c383b6d276b6e95830f71f872945c837a"
+  },
+  {
+    "old_path": "custom_2/custom_2_cnn.onnx",
+    "new_path": "custom_2/experiments/sweep/custom_2_cnn.onnx",
+    "sha256": "c56bc7183f9ba74cd68e807326a0b4a8f59b3b6cf2e890c0d443fc9f48802065"
+  },
+  {
+    "old_path": "custom_2/custom_2_cnn.pt",
+    "new_path": "custom_2/experiments/sweep/custom_2_cnn.pt",
+    "sha256": "ddaa756983c60c7a142b960998a2ba7dc95a8d5a9540863004fda91a0c969b4f"
+  },
+  {
+    "old_path": "custom_2/RESULTS.md",
+    "new_path": "custom_2/experiments/sweep/RESULTS.md",
+    "sha256": "b81b4b973735bf0c5d60c43c4f8f809e1925bd6fb15fee974f644758f00a84be"
+  },
+  {
+    "old_path": "custom_2/score_benchmark.json",
+    "new_path": "custom_2/reports/score_benchmark.json",
+    "sha256": "c9f7c5a4fd9ca3bc7b702b567554cddfe6b01dd30e1fb850e4a4e970daf07f80"
+  },
+  {
+    "old_path": "custom_2/SCORE_COMPARISON.md",
+    "new_path": "custom_2/reports/SCORE_COMPARISON.md",
+    "sha256": "081aadb761d02aa8c87d7b61a5e0c1328df03218fdf5c32b800906980e34692e"
+  },
+  {
+    "old_path": "custom_2/__pycache__/lr_control.cpython-314.pyc",
+    "new_path": "custom_2/code/__pycache__/lr_control.cpython-314.pyc",
+    "sha256": "25da5f980fd3ff8e50671a1e93f0b7fd125dfc6460de96878fa9753ae8849b18"
+  },
+  {
+    "old_path": "custom_2/__pycache__/test_custom_2.cpython-314.pyc",
+    "new_path": "custom_2/code/__pycache__/test_custom_2.cpython-314.pyc",
+    "sha256": "a4c53efb23e6070d75db7523ea81f2533a41092ebd660b8aa5ba0a178e3b6bb9"
+  },
+  {
+    "old_path": "custom_2/__pycache__/train_custom_2.cpython-314.pyc",
+    "new_path": "custom_2/code/__pycache__/train_custom_2.cpython-314.pyc",
+    "sha256": "37284683523d0b01addd88a60dda11ab66cfa242706db06944f43a0d42991c39"
+  },
+  {
+    "old_path": "custom_2/__pycache__/train_tiny_cosine.cpython-314.pyc",
+    "new_path": "custom_2/code/__pycache__/train_tiny_cosine.cpython-314.pyc",
+    "sha256": "fcca6b9d2c28f8a1765d10fbc3088209f97f4c640a8e819f680a7bb40ab22050"
+  },
+  {
+    "old_path": "custom_2/tiny_cosine.log",
+    "new_path": "custom_2/logs/tiny_cosine.log",
+    "sha256": "6f36369918944b3dc44422ea99dc3ec17f710e04cef9a22ac0f6b62e43f45609"
+  },
+  {
+    "old_path": "custom_2/sweep.log",
+    "new_path": "custom_2/logs/sweep.log",
+    "sha256": "407850029fdbd720ff3c5679e39a22b5c11cccd7d2ee6d589dba8bfa179e043e"
+  },
+  {
+    "old_path": "custom_2/benchmark.log",
+    "new_path": "custom_2/logs/benchmark.log",
+    "sha256": "022b78fdab56fec3a1676cdbc5a47e004062cfe468628b6e440bf9a7b8e8b13e"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau_min80.log",
+    "new_path": "custom_2/logs/tiny_plateau_min80.log",
+    "sha256": "25084f542cb35614dcf10565657ef6ccf1152fd47633511900dbdbc9896674fa"
+  },
+  {
+    "old_path": "custom_2/tiny_plateau.log",
+    "new_path": "custom_2/logs/tiny_plateau.log",
+    "sha256": "ae7c82a0396f318d2b46d8c5d147eb3861f1b2d683f4e10eaf57ca477654444e"
+  }
+]

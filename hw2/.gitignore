@@ -1,0 +1,7 @@
+*.pyc
+*.onnx
+*.zip
+*.pt
+*.pth
+*.pdf
+*.log

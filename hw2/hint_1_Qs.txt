@@ -1,0 +1,8 @@
+1. What changes along a row, and how do the answers change?
+Each row shows the same photo centred (C) and shifted 8 pixels left, right, up, or down. Its true class stays the same, but the model’s prediction often changes. Accuracy drops from 86% centred to 74% left, 64% right, 62% up, and 66% down. Only 30% of photos receive the same answer in all five positions. For example, airplane te4287 is classified as airplane at C and D, but frog at L, horse at R, and automobile at U.
+
+2. Why does the baseline fail? Which layer causes it?
+The main architectural cause is the fully connected classifier after flattening. Flattening gives each spatial position a separate index, and the dense layer learns different weights for those positions. When an object moves, its features move to different indices, so the prediction can change even though the object’s identity does not. Convolutions share weights across positions, but this classifier can learn to rely on where features appear.
+
+3. Before training Part 2: which columns will global average pooling change, and why?
+I expect the L, R, U, and D accuracies to improve, bringing them closer to C, and the “same answer in all 5” percentage to increase. Global average pooling averages each feature map across its spatial positions, reducing dependence on where a feature appears. Centred accuracy may also change after retraining, but improvement there is less certain. Perfect consistency is not guaranteed because padding, boundaries, and downsampling can still affect the features when an image shifts.

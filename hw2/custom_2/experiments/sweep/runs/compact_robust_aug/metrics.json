@@ -1,0 +1,59 @@
+{
+  "config": {
+    "name": "compact_robust_aug",
+    "widths": [
+      24,
+      48,
+      96,
+      144
+    ],
+    "augmentation": "robust",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.5
+  },
+  "epochs": 80,
+  "seed": 0,
+  "parameters": 1129661,
+  "float_state_values": 1132781,
+  "best_epoch": 65,
+  "validation": {
+    "view_accuracy": {
+      "center": 0.9100000262260437,
+      "left_8": 0.9120000004768372,
+      "right_8": 0.9139999747276306,
+      "up_8": 0.906000018119812,
+      "down_8": 0.9100000262260437,
+      "left_16": 0.9020000100135803,
+      "right_16": 0.9039999842643738,
+      "up_16": 0.8999999761581421,
+      "down_16": 0.9079999923706055,
+      "scale_0.75": 0.8820000290870667,
+      "scale_1.25": 0.9100000262260437,
+      "darker": 0.9039999842643738,
+      "brighter": 0.8999999761581421
+    },
+    "mean_accuracy": 0.9047692326398996,
+    "all_views_same_prediction": 0.8500000238418579,
+    "all_views_correct": 0.8220000267028809
+  },
+  "diagnostic_stress": {
+    "view_accuracy": {
+      "top_left": 0.9039999842643738,
+      "top_right": 0.9020000100135803,
+      "bottom_left": 0.906000018119812,
+      "bottom_right": 0.8999999761581421,
+      "rotation_-20": 0.8859999775886536,
+      "rotation_20": 0.871999979019165,
+      "scale_0.6": 0.8519999980926514,
+      "scale_1.5": 0.8960000276565552,
+      "grayscale": 0.871999979019165,
+      "low_contrast": 0.9020000100135803,
+      "noise_0.04": 0.8960000276565552,
+      "blur_3": 0.8759999871253967
+    },
+    "mean_accuracy": 0.8886666645606359,
+    "all_views_same_prediction": 0.7120000123977661,
+    "all_views_correct": 0.699999988079071
+  }
+}
